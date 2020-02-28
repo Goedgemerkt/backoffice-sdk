@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
 * The RoleDTO model module.
 * @module model/RoleDTO
-* @version 0.1
+* @version 0.1.1
 */
 export default class RoleDTO {
     /**
@@ -67,32 +67,6 @@ export default class RoleDTO {
     scopes = undefined;
 
 
-    /**
-    * @return {String}
-    */
-    getName() {
-        return this.name;
-    }
-
-    /**
-    * @param {String} name
-    */
-    setName(name) {
-        this['name'] = name;
-    }
-    /**
-    * @return {Array.<String>}
-    */
-    getScopes() {
-        return this.scopes;
-    }
-
-    /**
-    * @param {Array.<String>} scopes
-    */
-    setScopes(scopes) {
-        this['scopes'] = scopes;
-    }
 
 
 }

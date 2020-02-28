@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
 * The UserDTO model module.
 * @module model/UserDTO
-* @version 0.1
+* @version 0.1.1
 */
 export default class UserDTO {
     /**
@@ -67,32 +67,6 @@ export default class UserDTO {
     password = undefined;
 
 
-    /**
-    * @return {String}
-    */
-    getUsername() {
-        return this.username;
-    }
-
-    /**
-    * @param {String} username
-    */
-    setUsername(username) {
-        this['username'] = username;
-    }
-    /**
-    * @return {String}
-    */
-    getPassword() {
-        return this.password;
-    }
-
-    /**
-    * @param {String} password
-    */
-    setPassword(password) {
-        this['password'] = password;
-    }
 
 
 }

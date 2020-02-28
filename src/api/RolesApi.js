@@ -17,7 +17,7 @@ import RoleDTO from '../model/RoleDTO';
 /**
 * Roles service.
 * @module api/RolesApi
-* @version 0.1
+* @version 0.1.1
 */
 export default class RolesApi {
 
