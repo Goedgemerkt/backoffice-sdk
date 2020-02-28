@@ -1,6 +1,6 @@
 {
   "name": "goedgemerkt-backoffice",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "API_for_creating_packing_slips",
   "license": "Unlicense",
   "main": "src/index.js",

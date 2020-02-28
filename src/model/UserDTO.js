@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
 * The UserDTO model module.
 * @module model/UserDTO
-* @version 0.1.2
+* @version 0.1.3
 */
 export default class UserDTO {
     /**

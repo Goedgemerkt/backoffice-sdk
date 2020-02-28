@@ -16,7 +16,7 @@ import ApiClient from "../ApiClient";
 /**
 * Orders service.
 * @module api/OrdersApi
-* @version 0.1.2
+* @version 0.1.3
 */
 export default class OrdersApi {
 
