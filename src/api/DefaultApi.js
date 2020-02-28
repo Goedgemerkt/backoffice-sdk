@@ -16,7 +16,7 @@ import ApiClient from "../ApiClient";
 /**
 * Default service.
 * @module api/DefaultApi
-* @version 0.1.1
+* @version 0.1.2
 */
 export default class DefaultApi {
 

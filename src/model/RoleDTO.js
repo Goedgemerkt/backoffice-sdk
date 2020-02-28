@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
 * The RoleDTO model module.
 * @module model/RoleDTO
-* @version 0.1.1
+* @version 0.1.2
 */
 export default class RoleDTO {
     /**

@@ -17,7 +17,7 @@ import UserDTO from '../model/UserDTO';
 /**
 * Users service.
 * @module api/UsersApi
-* @version 0.1.1
+* @version 0.1.2
 */
 export default class UsersApi {
 
