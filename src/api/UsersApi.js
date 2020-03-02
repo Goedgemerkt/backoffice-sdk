@@ -115,6 +115,44 @@ export default class UsersApi {
     /**
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing HTTP response
      */
+    usersControllerLogoutWithHttpInfo() {
+      let postBody = null;
+
+      let pathParams = {
+      };
+      let queryParams = {
+      };
+      let headerParams = {
+      };
+      let formParams = {
+      };
+
+      let authNames = ['bearer'];
+      let contentTypes = [];
+      let accepts = [];
+      let returnType = null;
+
+      return this.apiClient.callApi(
+        '/users/logout', 'GET',
+        pathParams, queryParams, headerParams, formParams, postBody,
+        authNames, contentTypes, accepts, returnType
+      );
+    }
+
+    /**
+     * @return {Promise} a {@link https://www.promisejs.org/|Promise}
+     */
+    usersControllerLogout() {
+      return this.usersControllerLogoutWithHttpInfo()
+        .then(function(response_and_data) {
+          return response_and_data.data;
+        });
+    }
+
+
+    /**
+     * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing HTTP response
+     */
     usersControllerRegisterWithHttpInfo(body) {
       let postBody = body;
 

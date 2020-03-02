@@ -93,6 +93,7 @@ Class | Method | HTTP request | Description
 *GoedgemerktBackoffice.RolesApi* | [**rolesControllerRemoveScope**](docs/RolesApi.md#rolesControllerRemoveScope) | **PATCH** /roles/scopes/remove | 
 *GoedgemerktBackoffice.UsersApi* | [**usersControllerAddRole**](docs/UsersApi.md#usersControllerAddRole) | **PATCH** /users/{id}/roles/{role} | 
 *GoedgemerktBackoffice.UsersApi* | [**usersControllerLogin**](docs/UsersApi.md#usersControllerLogin) | **POST** /users/login | 
+*GoedgemerktBackoffice.UsersApi* | [**usersControllerLogout**](docs/UsersApi.md#usersControllerLogout) | **GET** /users/logout | 
 *GoedgemerktBackoffice.UsersApi* | [**usersControllerRegister**](docs/UsersApi.md#usersControllerRegister) | **POST** /users/register | 
 *GoedgemerktBackoffice.UsersApi* | [**usersControllerRemoveRole**](docs/UsersApi.md#usersControllerRemoveRole) | **DELETE** /users/{id}/roles/{role} | 
 *GoedgemerktBackoffice.UsersApi* | [**usersControllerWhoami**](docs/UsersApi.md#usersControllerWhoami) | **GET** /users/whoami | 
